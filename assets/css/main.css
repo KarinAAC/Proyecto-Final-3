@@ -158,3 +158,78 @@ label{
   font-family: Arial;
   color: white;
 }
+/* CREANDO SECCION VIDEOS*/
+#videos-uno{
+  width: 98.7%;
+  height: 350px;
+  position: absolute;
+  background-color: white;
+  margin-top: 1200px;
+}
+#videos-uno iframe{
+  margin-left: 374px;
+  margin-top: -245px;
+  width: 70%;
+}
+#texto-uno{
+  padding: 30px;
+  width: 30%;
+}
+#texto-uno h1{
+  font-family: Arial;
+  font-size: 25px;
+}
+#texto-uno p{
+  font-family: Arial;
+
+}
+#videos-dos{
+  width: 98.7%;
+  height: 350px;
+  position: absolute;
+  background-color: white;
+  margin-top: 1560px;
+}
+#videos-dos iframe{
+  width: 70%;
+  height: 350px;
+}
+#texto-dos{
+  padding: 30px;
+  width: 25%;
+  margin-left: 880px;
+  margin-top: -350px;
+}
+#texto-dos h1{
+  font-family: Arial;
+  font-size: 25px;
+}
+#texto-dos p{
+  font-family: Arial;
+
+}
+#videos-tres{
+  width: 98.7%;
+  height: 350px;
+  position: absolute;
+  background-color: white;
+  margin-top: 1900px;
+}
+#videos-tres iframe{
+  width: 70%;
+  height: 350px;
+  margin-left:380px;
+  margin-top: -245px;
+}
+#texto-tres{
+  padding: 30px;
+  width: 30%;
+}
+#texto-tres h1{
+  font-family: Arial;
+  font-size: 25px;
+}
+#texto-tres p{
+  font-family: Arial;
+
+}
