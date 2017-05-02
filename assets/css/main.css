@@ -58,13 +58,14 @@
   margin-left: 10px;
   color: #FE4391;
 }*/
+/*CREANDO FORMULARIO*/
 #formulario-contenedor{
   width: 43%;
   height: 500px;
   position: absolute;
   background: white;
   margin-left: 710px;
-  margin-top: 60px;
+  margin-top: 50px;
   padding-top: 20px;
 }
 #titulo-uno h1{
@@ -78,7 +79,7 @@
 }
 #titulo-uno{
   margin-left: 60px;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 input[type=text] {
     border: none;
@@ -121,6 +122,10 @@ label{
   color: #728099;
   font-size: 12px;
   margin-left: 60px;
+}
+/*FORMULARIO OCULTO*/
+#spanOculto{
+  display: none;
 }
 /*CREANDO SECCION INFORMACION UNO*/
 #informacion-uno{
@@ -251,6 +256,15 @@ footer{
 #columna-uno h3, #columna-uno p, #columna-dos h3, #columna-dos p, #columna-tres h3, #columna-tres p{
   font-family: Arial;
   color: white;
+}
+#columna-uno p:hover, #columna-dos p:hover, #columna-tres p:hover{
+  color: #FE4391;
+  cursor: pointer;
+  text-decoration: underline;
+}
+#columna-uno h3:hover, #columna-dos h3:hover, #columna-tres h3:hover{
+  text-decoration: underline;
+  cursor: pointer;
 }
 #columna-dos{
   display: inline-block;
