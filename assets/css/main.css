@@ -336,3 +336,11 @@ footer{
   position: absolute;
   margin-left: 220px;
 }
+#error-uno{
+  font-size: 20px;
+  color: red;
+  margin-left: 470px;
+  margin-top: -50px;
+  position: absolute;
+  display: none;
+}
