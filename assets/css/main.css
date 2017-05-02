@@ -107,6 +107,8 @@ label{
   border-radius: 10px;
   margin-left: 60px;
   font-size: 17px;
+  outline: 0;
+  cursor: pointer;
 }
 #a-boton{
   color: #728099;
@@ -216,7 +218,7 @@ label{
   margin-top: 1900px;
 }
 #videos-tres iframe{
-  width: 70%;
+  width: 69.5%;
   height: 350px;
   margin-left:380px;
   margin-top: -245px;
@@ -232,4 +234,91 @@ label{
 #texto-tres p{
   font-family: Arial;
 
+}
+/* CREANDO SECCION FOOTER*/
+footer{
+  width: 98.7%;
+  height: 430px;
+  background: #333447;
+  position: absolute;
+  margin-top: 2250px;
+}
+#columna-uno{
+  display: inline-block;
+  margin-left: 150px;
+  margin-top: 30px;
+}
+#columna-uno h3, #columna-uno p, #columna-dos h3, #columna-dos p, #columna-tres h3, #columna-tres p{
+  font-family: Arial;
+  color: white;
+}
+#columna-dos{
+  display: inline-block;
+  margin-left: 150px;
+  margin-top: 30px;
+}
+#columna-tres{
+  display: inline-block;
+  margin-left: 150px;
+  margin-top: 30px;
+}
+#apple{
+  margin-top: 54px;
+  position: absolute;
+  margin-left: 180px;
+}
+#google{
+  width: 11%;
+  margin-left: 180px;
+  margin-top: 110px;
+  position: absolute;
+}
+#micro{
+  width: 11%;
+  height: 43px;
+  position: absolute;
+  margin-left: 180px;
+  margin-top: 165px;
+}
+#facebook{
+  display: inline-block;
+  margin-top: 300px;
+  position: absolute;
+  margin-left: -250px;
+  border: 1px solid white;
+  border-radius: 16px;
+  padding: 7px;
+}
+#instagram{
+  display: inline-block;
+  margin-top: 300px;
+  position: absolute;
+  margin-left: -110px;
+  border: 1px solid white;
+  border-radius: 16px;
+  padding: 7px;
+}
+#twitter{
+  display: inline-block;
+  margin-top: 300px;
+  position: absolute;
+  margin-left: 20px;
+  border: 1px solid white;
+  border-radius: 16px;
+  padding: 7px;
+}
+#guion{
+  width: 50%;
+  height: 1px;
+  background: white;
+  margin-left: 295px;
+  margin-top: 130px;
+}
+#copy{
+  font-family: Arial;
+  font-size: 15px;
+  color: white;
+  margin-top: 30px;
+  position: absolute;
+  margin-left: 220px;
 }
