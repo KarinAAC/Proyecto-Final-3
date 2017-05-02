@@ -1,5 +1,6 @@
 #mivideo {
     width: 100%;
+    background: linear-gradient(#76278f,#2B1E66);
 }
 #nav{
   width: 100%;
@@ -118,4 +119,42 @@ label{
   color: #728099;
   font-size: 12px;
   margin-left: 60px;
+}
+/*CREANDO SECCION INFORMACION UNO*/
+#informacion-uno{
+  width: 98.7%;
+  height: 570px;
+  background: linear-gradient(#76278f,#2B1E66);
+  position: absolute;
+  margin-top: 631px;
+
+}
+#informacion-uno img{
+  width: 40%;
+  margin-left: 600px;
+  margin-top: 30px;
+}
+#tit-info-uno{
+  margin-top: -510px;
+  margin-left: 100px;
+}
+#tit-info-uno h1, #tit-info-uno p{
+  font-family: Arial;
+  color: white;
+}
+#tit-info-dos{
+  margin-top: 55px;
+  margin-left: 100px;
+}
+#tit-info-dos h1, #tit-info-dos p{
+  font-family: Arial;
+  color: white;
+}
+#tit-info-tres{
+  margin-top: 55px;
+  margin-left: 100px;
+}
+#tit-info-tres h1, #tit-info-tres p{
+  font-family: Arial;
+  color: white;
 }
